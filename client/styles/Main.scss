@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #EEE;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  margin: 0;
+}
+
+main{
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.link {
+  text-decoration: none;
+  color: #DDD !important;
+  transition-duration: .3s !important;
+
+  &:hover {
+    color: #FFF !important;
+    text-shadow: 0 0 24px #FFF;
+  }
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.rounded {
+  border-radius: 6%;
+}

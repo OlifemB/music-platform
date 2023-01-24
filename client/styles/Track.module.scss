@@ -1,0 +1,36 @@
+.track{
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  border: 2px solid transparent;
+
+  &:hover{
+    border-color: #1976d2
+  }
+
+  &List{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+  gap: 4px;
+}
+
+.name{
+  color: #121314;
+}
+
+.artist{
+  font-size: 14px;
+  color: #808080FF;
+}
+
+.time{
+
+}
